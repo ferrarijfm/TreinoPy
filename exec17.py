@@ -1,0 +1,6 @@
+import math
+
+catO = float(input("Comprimento do cateto oposto: "))
+catA = float(input("Comprimento do cateto adjacente: "))
+
+print("A hipotenusa vai medir {:.2f}".format(math.hypot(catO, catA)))
